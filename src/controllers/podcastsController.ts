@@ -15,7 +15,12 @@ export const getFilterEpisodes = async (
   req: IncomingMessage,
   res: ServerResponse
 ) => {
-  const content = await serviceFilterEpisodes("Gêmeos Investem Podcast");
+  const url = new URL(req.url ?? "", `http://${req.headers.host}`);
+  
+  const p = url.searchParams.get("p") ?? "";
+
+  const content = await serviceFilterEpisodes(p);
+
   res.writeHead(200, { "Content-Type": "application/json" });
   res.end(JSON.stringify(content));
 };

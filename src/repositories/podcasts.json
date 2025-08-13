@@ -22,5 +22,13 @@
     "cover": "https://i.ytimg.com/vi/xKI6l1htHm0/maxresdefault.jpg",
     "link": "https://www.youtube.com/watch?v=xKI6l1htHm0",
     "categories": ["Investimento", "Crypto", "Blockchain"]
+  },
+  {
+    "podcastName": "flow",
+    "episode": "JONES MANOEL - Flow #479",
+    "videoId": "dpKghyaE0vE",
+    "cover": "https://i.ytimg.com/vi/dpKghyaE0vE/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=dpKghyaE0vE",
+    "categories": ["Educação", "Política", "Cultura"]
   }
 ]
